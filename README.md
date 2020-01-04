@@ -113,16 +113,16 @@ HW 1st
       d. Practice makes perfect...
 
     3. Verification
-    
+
       a. Prepared list of what to verify that systems runs normally (API, Mobile apps, 3:rd party integration, synchronisation...)
 
 ## Пример шаблона описания GameDay
 
 Status:
-  GameDay run ... yes/no
-  All services up and running ... yes/no
-  Using account for normal development work ... yes/no
-  Removed old Dev-env from Live account ... yes/no
+  * GameDay run ... yes/no
+  * All services up and running ... yes/no
+  * Using account for normal development work ... yes/no
+  * Removed old Dev-env from Live account ... yes/no
 
 Take contact with squad before GameDay and get an innovatory over what they run.
 Squad runs:
