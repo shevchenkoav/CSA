@@ -115,18 +115,18 @@ Status:
 
 Take contact with squad before GameDay and get an innovatory over what they run.
 Squad runs:
-  Service one
-  Service two
-  Service three
+  * Service one
+  * Service two
+  * Service three
 
 Make a list of matching backup solution that are provided and documentation on that backup solution:
-  Backup solution one, confluence page: here
-  Backup solution two, confluence page: here
-  Backup solution three, confluence page: here
+  * Backup solution one, confluence page: here
+  * Backup solution two, confluence page: here
+  * Backup solution three, confluence page: here
 
 Make a list of solution /things that gets to be done before we are ready for the GameDay:
-  Need to create solution for.
-  This we need to fix before GameDay
+  * Need to create solution for.
+  * This we need to fix before GameDay
 
 Goals and measure points:
 
