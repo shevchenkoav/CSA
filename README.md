@@ -87,9 +87,9 @@ HW 1st
 
 ## Пример описания GameDay
   Scenario:
-    A Hacker has gained access to you AWS account and executed a clean up script which wiped the account clean.
-  Goal:
-    Separate production workloads from non production workloads by doing a disaster recovery into a "fresh" AWS account
+    ...A Hacker has gained access to you AWS account and executed a clean up script which wiped the account clean.
+  ...Goal:
+    ...Separate production workloads from non production workloads by doing a disaster recovery into a "fresh" AWS account
     This GameDay will focus on:
       Get the needed infrastructure up and running in a new account
       Restore application data from the backup account
