@@ -87,22 +87,33 @@ HW 1st
 
 ## Пример описания GameDay
   Scenario:
-    ...A Hacker has gained access to you AWS account and executed a clean up script which wiped the account clean.
-  ...Goal:
-    ...Separate production workloads from non production workloads by doing a disaster recovery into a "fresh" AWS account
+
+    A Hacker has gained access to you AWS account and executed a clean up script which wiped the account clean.
+
+  Goal:
+
+    Separate production workloads from non production workloads by doing a disaster recovery into a "fresh" AWS account
+
     This GameDay will focus on:
-      Get the needed infrastructure up and running in a new account
-      Restore application data from the backup account
+      * Get the needed infrastructure up and running in a new account
+      * Restore application data from the backup account
+
   Rational:
+
     1. Separation of concern:
+
       a. Increase development speed since there will be no risk of destroying the live environment when doing changes to non production environments
       b. By having one AWS account per environment we can more easily limit the access to live environment for new employees.
+
     2. Test a full disaster recovery
+
       a. Do we have all the needed data under version control?
       b. Do we have all data backed up and restorable in our Backup Account?
       c. How long time does a full restore take?
       d. Practice makes perfect...
+
     3. Verification
+    
       a. Prepared list of what to verify that systems runs normally (API, Mobile apps, 3:rd party integration, synchronisation...)
 
 ## Пример шаблона описания GameDay
